@@ -78,4 +78,10 @@ public class Player {
     public int getKnightsPlayed() {
         return knightsPlayed;
     }
+
+    public boolean hasABuildingHere(Tile tile){
+        if (tile.resource == "sheep"){
+            
+        }
+    }
 }

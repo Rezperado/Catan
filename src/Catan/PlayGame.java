@@ -26,8 +26,12 @@ public class PlayGame {
 
     }
 
-    private void moveRobber(Tile tile){
+    private void moveRobber(Tile tile, Player stealFrom){
+        if (stealFrom == null){
+            System.out.println("you stole from no one");
+        } else {
 
+        }
     }
 
     private static double rollDice(){
